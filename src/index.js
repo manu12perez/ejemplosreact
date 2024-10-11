@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import SumarNumeros from "./components/SumarNumeros/SumarNumeros";
 import App from "./components/App/App";
 import SaludoPadre from "./components/SaludoPadre";
+import PadreMatematicas from "./components/PadreMatematicas.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,7 +13,8 @@ root.render(
     {/* <App /> */}
     {/* <SumarNumeros numero1="5" numero2="3" />
     <SumarNumeros numero1="84" numero2="116" /> */}
-    <SaludoPadre />
+    {/* <SaludoPadre /> */}
+    <PadreMatematicas />
   </React.StrictMode>
 );
 
