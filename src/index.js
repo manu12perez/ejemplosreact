@@ -6,6 +6,7 @@ import SumarNumeros from "./components/SumarNumeros/SumarNumeros";
 import App from "./components/App/App";
 import SaludoPadre from "./components/SaludoPadre";
 import PadreMatematicas from "./components/PadreMatematicas.js";
+import Contador from "./components/Contador.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,7 +15,8 @@ root.render(
     {/* <SumarNumeros numero1="5" numero2="3" />
     <SumarNumeros numero1="84" numero2="116" /> */}
     {/* <SaludoPadre /> */}
-    <PadreMatematicas />
+    {/* <PadreMatematicas /> */}
+    <Contador />
   </React.StrictMode>
 );
 
