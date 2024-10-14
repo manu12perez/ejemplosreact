@@ -17,6 +17,14 @@ function Contador() {
       <h1 style={{ color: "blue" }}>Ejemplo Contador State</h1>
       <h2 style={{ color: "red" }}>Contador {numero}</h2>
       <button onClick={() => sumarContador()}>Sumar contador</button>
+      <br />
+      <button
+        onClick={() => {
+          setNumero(numero - 1);
+        }}
+      >
+        Restar contador
+      </button>
     </div>
   );
 }
